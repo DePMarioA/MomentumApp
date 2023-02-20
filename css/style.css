@@ -1,0 +1,192 @@
+
+/* body{
+    background-color: beige;
+}
+
+h1{
+    color: cornflowerblue;
+    transition: color .4s ease-in-out;
+}
+.clicked:hover {
+    color: tomato;
+}
+.sexy-font{
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} */
+
+
+/* h1:first-child{
+
+    color: sandybrown;
+} */
+
+
+.active2 {
+    background-color: beige;
+    color :red
+}
+
+.hidden{
+    display: none;
+}
+
+input#logout{
+    font-size: larger;
+    position: absolute;
+    right: 5px;
+    top:25px;
+    background: none;
+    /* border-radius: 40%; */
+    border-color:  rgb(219, 207, 157) ;;
+    color:rgb(219, 207, 157) ;
+}
+input#logout:hover{
+    font-size: x-large;
+}
+
+
+
+.bk{
+
+    position:absolute;
+    height: cover;
+    width: cover;
+    left: 0px;
+    top: 0px;
+    right:0px;
+    bottom:0px;
+    z-index: -1;
+    opacity:980%;
+        
+}
+.bk img{
+    background-size: cover;
+}
+ul#todo-list{
+    
+    align-items: center;
+}
+
+ul#stored-users{
+    list-style-type: none;
+    padding: 0%;
+    color: black;
+    font-weight: 800;
+}
+ul#stored-users li span:hover{
+    font-size: larger;
+    border-color: black;
+    border: 1rem;
+ 
+}
+.acct-list:hover{
+    font-size: larger;
+    padding: 1rem;
+}
+.acct-list{
+    background-color: antiquewhite;
+    margin: 1rem;
+    width: fit-content;
+    
+}
+ul#stored-users button{
+    margin-left: 1rem ;
+    background: none;
+}
+div.bd{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    color : rgb(219, 207, 157)
+    
+}
+form#todo-form input{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: none;
+    width: 20rem;
+    height: 2rem;
+    color:rgb(219, 207, 157) ;
+    font-size: larger;
+    font-weight: 500;
+
+}
+form#todo-form input::placeholder{
+    color: rgb(219, 207, 157);
+    font-size: larger;
+}
+h2{
+   
+    color:rgb(219, 207, 157);
+    background-color: rgba(0, 0, 0, 0.0);
+    /* border: 3px solid black; */
+    /* 
+    padding: 70px 0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font-size: 50px;
+    margin-top: 20rem;
+    margin-bottom: 0%;
+    /* margin-bottom: -5%; */
+   
+}
+h1{
+    margin-top: 0%;
+    text-align: center;
+}
+ul#todo-list{
+    display: block;
+    width: 21rem;
+    list-style: outside none none;
+    color:rgb(219, 207, 157);
+    background-color: rgba(0, 0, 0, 0.25);
+    background-size:auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-left: 0;
+    font-weight: 500;
+
+}
+ul#todo-list li span{
+    flex-grow: 50;
+    font-size: larger;
+    
+}
+ul#todo-list li button{
+    flex-grow: 1;
+    background: none;
+    border-color: rgb(43, 40, 40);
+    
+}
+ul#todo-list li button:hover{
+font-size: larger;
+    
+}
+ul#todo-list li {
+    display: flex;
+    word-wrap: break-word
+}
+div#quotes{
+   
+    color:rgb(219, 207, 157);
+    background-color: rgba(0, 0, 0, 0.25);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 0%;
+    width: 21rem;
+    font-weight: 500;
+    
+}
+body{
+    background-size: cover;
+    background-position: center center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
